@@ -11,7 +11,7 @@ public class OrdenacaoControllerBubble {
 	   int tamanho = vetor.length;
 	   //rodadas
 	   for (int i = 0; i < tamanho ; i++) {
-		  // System.out.println("Rodada #"+ i);
+		   System.out.println("Rodada #"+ i);
 		   //Dinâmica
 		   for (int j = 0 ; j < tamanho - 1; j++) {
 			   if (vetor[j] > vetor [j + 1]) {
@@ -21,9 +21,9 @@ public class OrdenacaoControllerBubble {
 				   
 			   }
 		   }
-//		   for (int valor : vetor) {
-//			   System.out.print(valor + " ");
-//		   }
+		   for (int valor : vetor) {
+			   System.out.print(valor + " ");
+		   }
 	   }
 	   
 		   return vetor;
